@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.5.8-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1719242571</meta>
+    <meta key="export_datetime"><![CDATA[2024-06-24T11:22:51-04:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[127.0.0.1:80]]></meta>
+    <meta key="export_server_os">WINNT</meta>
+    <meta key="export_server_php_version">70326</meta>
+    <meta key="export_version">2</meta>
+    <meta key="workspace">workflow</meta>
+    <meta key="name"><![CDATA[02_01داشبورد مترجمین]]></meta>
+    <meta key="uid">8879167526666d72fbe6f83045047317</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>7507487026666d758ab6104080258587</act_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <pro_uid>5080929106666d72fc18fb8028749877</pro_uid>
+        <act_name><![CDATA[بررسی سفارش مشتری و تعیین قیمت]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>9153941406666d758abb6d2043172655</bou_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <element_uid>7507487026666d758ab6104080258587</element_uid>
+        <bou_element>253351069666ecf5c6a3af7032626921</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>285</bou_x>
+        <bou_y>62</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <act_uid>615519885666ecf854bfaa2090823927</act_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <pro_uid>5080929106666d72fc18fb8028749877</pro_uid>
+        <act_name><![CDATA[بررسی مدیر]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>1</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>931235313666ecf854c7cc8007233390</bou_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <element_uid>615519885666ecf854bfaa2090823927</element_uid>
+        <bou_element>763095623666ecf5c6cc849051941549</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>236</bou_x>
+        <bou_y>66</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>3342146316666d758a949e8076075889</bou_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <element_uid>3735470106666d758a8a148052155060</element_uid>
+        <bou_element>7237738546666d72fc0cc03048881589</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>301</bou_x>
+        <bou_y>29</bou_y>
+        <bou_width>706</bou_width>
+        <bou_height>400</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>342489421666ecf5c6ad8c6040783090</bou_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <element_uid>253351069666ecf5c6a3af7032626921</element_uid>
+        <bou_element>3735470106666d758a8a148052155060</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>0</bou_y>
+        <bou_width>664</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>1</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>5910488036666d758b19506018228770</bou_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <element_uid>6932501456666d758b12c74037139073</element_uid>
+        <bou_element>253351069666ecf5c6a3af7032626921</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>135</bou_x>
+        <bou_y>83</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>708951945666ecf8f2be9c4061110990</bou_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <element_uid>827333148666ecf8f2b2b58036771568</element_uid>
+        <bou_element>763095623666ecf5c6cc849051941549</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>468</bou_x>
+        <bou_y>87</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>737365111666ecf5c6d0b42063671021</bou_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <element_uid>763095623666ecf5c6cc849051941549</element_uid>
+        <bou_element>3735470106666d758a8a148052155060</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>200</bou_y>
+        <bou_width>664</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>2</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>9153941406666d758abb6d2043172655</bou_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <element_uid>7507487026666d758ab6104080258587</element_uid>
+        <bou_element>253351069666ecf5c6a3af7032626921</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>285</bou_x>
+        <bou_y>62</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>931235313666ecf854c7cc8007233390</bou_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <element_uid>615519885666ecf854bfaa2090823927</element_uid>
+        <bou_element>763095623666ecf5c6cc849051941549</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>236</bou_x>
+        <bou_y>66</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <dia_name><![CDATA[02_01داشبورد مترجمین]]></dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>6932501456666d758b12c74037139073</evn_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <pro_uid>5080929106666d72fc18fb8028749877</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>5910488036666d758b19506018228770</bou_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <element_uid>6932501456666d758b12c74037139073</element_uid>
+        <bou_element>253351069666ecf5c6a3af7032626921</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>135</bou_x>
+        <bou_y>83</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <evn_uid>827333148666ecf8f2b2b58036771568</evn_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <pro_uid>5080929106666d72fc18fb8028749877</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>708951945666ecf8f2be9c4061110990</bou_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <element_uid>827333148666ecf8f2b2b58036771568</element_uid>
+        <bou_element>763095623666ecf5c6cc849051941549</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>468</bou_x>
+        <bou_y>87</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>147076556666ecf8556fab3075834086</flo_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>7507487026666d758ab6104080258587</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>615519885666ecf854bfaa2090823927</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>704</flo_x1>
+        <flo_y1>168</flo_y1>
+        <flo_x2>579</flo_x2>
+        <flo_y2>337</flo_y2>
+        <flo_state><![CDATA[[{"x":704,"y":168},{"x":704,"y":252},{"x":559,"y":252},{"x":559,"y":337},{"x":579,"y":337}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>6737884666666d758b4b359065637050</flo_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>6932501456666d758b12c74037139073</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>7507487026666d758ab6104080258587</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>511</flo_x1>
+        <flo_y1>131</flo_y1>
+        <flo_x2>628</flo_x2>
+        <flo_y2>131</flo_y2>
+        <flo_state><![CDATA[[{"x":511,"y":131},{"x":628,"y":131}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>702870677666ecf8f303141091025857</flo_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>615519885666ecf854bfaa2090823927</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>827333148666ecf8f2b2b58036771568</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>730</flo_x1>
+        <flo_y1>337</flo_y1>
+        <flo_x2>811</flo_x2>
+        <flo_y2>337</flo_y2>
+        <flo_state><![CDATA[[{"x":730,"y":337},{"x":811,"y":337}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY"/>
+    <table name="LANE">
+      <record>
+        <lan_uid>253351069666ecf5c6a3af7032626921</lan_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <lns_uid>3735470106666d758a8a148052155060</lns_uid>
+        <lan_name><![CDATA[مترجم]]></lan_name>
+        <lan_child_laneset></lan_child_laneset>
+        <lan_is_horizontal>1</lan_is_horizontal>
+        <bou_uid>342489421666ecf5c6ad8c6040783090</bou_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <element_uid>253351069666ecf5c6a3af7032626921</element_uid>
+        <bou_element>3735470106666d758a8a148052155060</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>0</bou_y>
+        <bou_width>664</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>1</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <lan_uid>763095623666ecf5c6cc849051941549</lan_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <lns_uid>3735470106666d758a8a148052155060</lns_uid>
+        <lan_name><![CDATA[مدیر]]></lan_name>
+        <lan_child_laneset></lan_child_laneset>
+        <lan_is_horizontal>1</lan_is_horizontal>
+        <bou_uid>737365111666ecf5c6d0b42063671021</bou_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <element_uid>763095623666ecf5c6cc849051941549</element_uid>
+        <bou_element>3735470106666d758a8a148052155060</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>200</bou_y>
+        <bou_width>664</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>2</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+    </table>
+    <table name="LANESET">
+      <record>
+        <lns_uid>3735470106666d758a8a148052155060</lns_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <pro_uid>5080929106666d72fc18fb8028749877</pro_uid>
+        <lns_name><![CDATA[تعیین قیمت و زمان]]></lns_name>
+        <lns_parent_lane></lns_parent_lane>
+        <lns_is_horizontal>1</lns_is_horizontal>
+        <lns_state></lns_state>
+        <bou_uid>3342146316666d758a949e8076075889</bou_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <element_uid>3735470106666d758a8a148052155060</element_uid>
+        <bou_element>7237738546666d72fc0cc03048881589</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>301</bou_x>
+        <bou_y>29</bou_y>
+        <bou_width>706</bou_width>
+        <bou_height>400</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>5080929106666d72fc18fb8028749877</pro_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <dia_uid>7237738546666d72fc0cc03048881589</dia_uid>
+        <pro_name><![CDATA[02_01داشبورد مترجمین]]></pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <prj_name><![CDATA[02_01داشبورد مترجمین]]></prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2024-06-10 06:36:31]]></prj_create_date>
+        <prj_update_date><![CDATA[2024-06-16 07:48:36]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>8879167526666d72fbe6f83045047317</pro_uid>
+        <pro_title><![CDATA[02_01داشبورد مترجمین]]></pro_title>
+        <pro_description></pro_description>
+        <pro_parent>8879167526666d72fbe6f83045047317</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_status_id>1</pro_status_id>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category></pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2024-06-16 07:48:36]]></pro_update_date>
+        <pro_create_date><![CDATA[2024-06-10 06:36:31]]></pro_create_date>
+        <pro_create_user>00000000000000000000000000000001</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>1</pro_debug>
+        <pro_dynaforms><![CDATA[a:1:{s:7:"PROCESS";s:0:"";}]]></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost><![CDATA[$]]></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <category_id>0</category_id>
+        <pro_category_label>No Category</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>8879167526666d72fbe6f83045047317</pro_uid>
+        <pro_id>0</pro_id>
+        <tas_uid>7507487026666d758ab6104080258587</tas_uid>
+        <tas_title><![CDATA[بررسی سفارش مشتری و تعیین قیمت]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>40302300366561e8eecc8a1024193084</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>285</tas_posx>
+        <tas_posy>62</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>8879167526666d72fbe6f83045047317</pro_uid>
+        <pro_id>0</pro_id>
+        <tas_uid>615519885666ecf854bfaa2090823927</tas_uid>
+        <tas_title><![CDATA[بررسی مدیر]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000001</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>236</tas_posx>
+        <tas_posy>66</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>423154114666ed114a305e6023995876</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>8879167526666d72fbe6f83045047317</pro_uid>
+        <tas_uid>615519885666ecf854bfaa2090823927</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>666245928666ed114a1ada0094567654</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>8879167526666d72fbe6f83045047317</pro_uid>
+        <tas_uid>7507487026666d758ab6104080258587</tas_uid>
+        <rou_next_task>615519885666ecf854bfaa2090823927</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>173733506666ecfeac2aa34003580007</dyn_uid>
+        <dyn_title><![CDATA[02_بررسی هزینه و زمان]]></dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>8879167526666d72fbe6f83045047317</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[8879167526666d72fbe6f83045047317\173733506666ecfeac2aa34003580007]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"02_بررسی هزینه و زمان","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"173733506666ecfeac2aa34003580007","name":"02_بررسی هزینه و زمان","description":"","mode":"edit","script":{"type":"js","code":""},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"subtitle","id":"subtitle0000000001","label":"بررسی هزینه تعیین شده ","ariaLabel":"","colSpan":12}],[{"type":"text","variable":"txt_selected_price","var_uid":"740070845666ab9f17ec917091235209","dataType":"string","protectedValue":false,"id":"txt_selected_price","name":"txt_selected_price","label":"","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txt_selected_price","colSpan":6},{"type":"label","id":"label0000000005","label":"قیمت تعیین شده توسط مترجم : ","ariaLabel":"","colSpan":6}],[{"type":"datetime","variable":"dat_selected_time","var_uid":"681427782666ab9dc55bf82083133429","dataType":"datetime","protectedValue":false,"id":"dat_selected_time","name":"dat_selected_time","label":"","tabIndex":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","mode":"disabled","format":"YYYY-MM-DD","dayViewHeaderFormat":"MMMM YYYY","extraFormats":false,"stepping":1,"minDate":"","maxDate":"","useCurrent":"false","collapse":true,"locale":"","defaultDate":"","disabledDates":false,"enabledDates":false,"icons":{"time":"glyphicon glyphicon-time","date":"glyphicon glyphicon-calendar","up":"glyphicon glyphicon-chevron-up","down":"glyphicon glyphicon-chevron-down","previous":"glyphicon glyphicon-chevron-left","next":"glyphicon glyphicon-chevron-right","today":"glyphicon glyphicon-screenshot","clear":"glyphicon glyphicon-trash"},"useStrict":false,"sideBySide":false,"daysOfWeekDisabled":false,"calendarWeeks":false,"viewMode":"days","toolbarPlacement":"default","showTodayButton":false,"showClear":"false","widgetPositioning":{"horizontal":"auto","vertical":"auto"},"widgetParent":null,"keepOpen":false,"var_name":"dat_selected_time","colSpan":6},{"type":"label","id":"label0000000006","label":"زمان تعیین شده توسط مترجم : ","ariaLabel":"","colSpan":6}],[{"type":"radio","variable":"rad_accept_trans","var_uid":"954693710666ab90c82ae48045584841","dataType":"string","protectedValue":false,"id":"rad_accept_trans","name":"rad_accept_trans","label":"","tabIndex":"","defaultValue":"","hint":"","ariaLabel":"","ariaLabelVisible":true,"required":true,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"1","label":"تایید مترجم"},{"value":"2","label":"عدم پذیرش"}],"var_name":"rad_accept_trans","colSpan":6},{"type":"label","id":"label0000000004","label":"بررسی نهایی : ","ariaLabel":"","colSpan":6}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"ثبت","tabIndex":"","ariaLabel":"","colSpan":12}],[{"type":"panel","id":"panel0000000001","content":"<style>\n#314333018664f18d27381f2086180452 {\n  direction : rtl;\n  \n}\n</style>","border":"0px","colSpan":12}]],"variables":[{"var_uid":"740070845666ab9f17ec917091235209","prj_uid":"8879167526666d72fbe6f83045047317","var_name":"txt_selected_price","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"681427782666ab9dc55bf82083133429","prj_uid":"8879167526666d72fbe6f83045047317","var_name":"dat_selected_time","var_field_type":"datetime","var_field_size":10,"var_label":"datetime","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"954693710666ab90c82ae48045584841","prj_uid":"8879167526666d72fbe6f83045047317","var_name":"rad_accept_trans","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[{\"value\":\"1\",\"label\":\"ترجمه میکنم\"},{\"value\":\"2\",\"label\":\"عدم پذیرش\"}]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2024-06-18 05:41:59]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>765707935666ab85c812de2075025880</dyn_uid>
+        <dyn_title>01_TRANSLATOR_CHECK</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>8879167526666d72fbe6f83045047317</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[8879167526666d72fbe6f83045047317\765707935666ab85c812de2075025880]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"01_TRANSLATOR_CHECK","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"765707935666ab85c812de2075025880","name":"01_TRANSLATOR_CHECK","description":"","mode":"edit","script":{"type":"js","code":""},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"بررسی سفارش","ariaLabel":"","colSpan":12}],[{"type":"subtitle","id":"subtitle0000000001","label":"سفارش وارد شده : ","ariaLabel":"","colSpan":12}],[{"type":"textarea","variable":"txr_order_desc","var_uid":"865994591666ab8ada46634091948054","dataType":"string","protectedValue":false,"id":"txr_order_desc","name":"txr_order_desc","label":"","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","validate":"","validateMessage":"","mode":"disabled","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"rows":"5","var_name":"txr_order_desc","colSpan":6},{"type":"label","id":"label0000000001","label":"توضیحات : ","ariaLabel":"","colSpan":6}],[{"type":"text","variable":"txt_selected_price","var_uid":"740070845666ab9f17ec917091235209","dataType":"string","protectedValue":false,"id":"txt_selected_price","name":"txt_selected_price","label":"","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txt_selected_price","colSpan":6},{"type":"label","id":"label0000000004","label":"هزینه مورد نظر را وارد کنید : ","ariaLabel":"","colSpan":6}],[{"type":"datetime","variable":"dat_selected_time","var_uid":"681427782666ab9dc55bf82083133429","dataType":"datetime","protectedValue":false,"id":"dat_selected_time","name":"dat_selected_time","label":"","tabIndex":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"","mode":"parent","format":"YYYY-MM-DD","dayViewHeaderFormat":"MMMM YYYY","extraFormats":false,"stepping":1,"minDate":"","maxDate":"","useCurrent":"false","collapse":true,"locale":"","defaultDate":"","disabledDates":false,"enabledDates":false,"icons":{"time":"glyphicon glyphicon-time","date":"glyphicon glyphicon-calendar","up":"glyphicon glyphicon-chevron-up","down":"glyphicon glyphicon-chevron-down","previous":"glyphicon glyphicon-chevron-left","next":"glyphicon glyphicon-chevron-right","today":"glyphicon glyphicon-screenshot","clear":"glyphicon glyphicon-trash"},"useStrict":false,"sideBySide":false,"daysOfWeekDisabled":false,"calendarWeeks":false,"viewMode":"days","toolbarPlacement":"default","showTodayButton":false,"showClear":"false","widgetPositioning":{"horizontal":"auto","vertical":"auto"},"widgetParent":null,"keepOpen":false,"var_name":"dat_selected_time","colSpan":6},{"type":"label","id":"label0000000005","label":"زمان مورد نظر خود را وارد کنید : ","ariaLabel":"","colSpan":6}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"ثبت ","tabIndex":"","ariaLabel":"","colSpan":12}],[{"type":"panel","id":"panel0000000001","content":"<style>\n#765707935666ab85c812de2075025880 {\n  direction : rtl;\n  \n}\n\n</style>","border":"0px","colSpan":12}]],"variables":[{"var_uid":"865994591666ab8ada46634091948054","prj_uid":"8879167526666d72fbe6f83045047317","var_name":"txr_order_desc","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"865994591666ab8ada46634091948054","var_name_old":"txr_order_desc","prj_uid_old":"8879167526666d72fbe6f83045047317","create":false},{"var_uid":"740070845666ab9f17ec917091235209","prj_uid":"8879167526666d72fbe6f83045047317","var_name":"txt_selected_price","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"740070845666ab9f17ec917091235209","var_name_old":"txt_selected_price","prj_uid_old":"8879167526666d72fbe6f83045047317","create":false},{"var_uid":"681427782666ab9dc55bf82083133429","prj_uid":"8879167526666d72fbe6f83045047317","var_name":"dat_selected_time","var_field_type":"datetime","var_field_size":10,"var_label":"datetime","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"681427782666ab9dc55bf82083133429","var_name_old":"dat_selected_time","prj_uid_old":"8879167526666d72fbe6f83045047317","create":false}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2024-06-18 05:40:59]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>636621329666ed0104e0f46074316732</step_uid>
+        <pro_uid>8879167526666d72fbe6f83045047317</pro_uid>
+        <tas_uid>615519885666ecf854bfaa2090823927</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>173733506666ecfeac2aa34003580007</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>307472002666ab891166a33062554869</step_uid>
+        <pro_uid>8879167526666d72fbe6f83045047317</pro_uid>
+        <tas_uid>7507487026666d758ab6104080258587</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>765707935666ab85c812de2075025880</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>255538915666c32e9108d69022802219</tri_uid>
+        <tri_title>UPDATE_TRANS_DB</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>8879167526666d72fbe6f83045047317</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[// Inserts the translatorID , selected price and date to the PMT_TRANS table only if it's allowed by admin.
+
+if (@@rad_accept_trans == 1) {
+$T_ID = @@TRANS_ID;
+$T_PRICE = @@txt_selected_price;
+$T_DATE = @@dat_selected_time;
+$sql = "INSERT INTO PMT_TRANS (T_ID,T_PRICE,T_DATE) VALUES ('$T_ID','$T_PRICE','$T_DATE')";
+executeQuery($sql);
+}]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>349939674666edc88adbfe7078379927</tri_uid>
+        <tri_title>GET_REPORT_TABLE_MAIN_PROCESS</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>8879167526666d72fbe6f83045047317</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[// read data description that user added in order from report table of main process and set it.
+
+$APP_UID = @@MAINPROCESS_APP_UID;
+
+$result = executeQuery("SELECT TXR_ORDER_DESC FROM PMT_ORDERS WHERE APP_UID = '$APP_UID'");
+
+    if ($result) {
+        @@txr_order_desc = $result[1]['TXR_ORDER_DESC'];
+        // @@txr_order_desc = "hell no";
+    } else {
+        @@txr_order_desc = "No description found for the given APP_UID.";
+    }]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>433198202666ecfccba0965070231372</tri_uid>
+        <tri_title>FILL_GRID_DB</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>8879167526666d72fbe6f83045047317</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[// This trigger gets price and date and translatorUID from PMT_TRANS table and set the data to a unique grid.
+
+$query = "SELECT T_ID AS text0000000001 ,T_PRICE AS text0000000002 , T_DATE AS datetime0000000001 FROM PMT_TRANS";
+@=grd_trans_details = executeQuery($query);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>524523051666ed2770c85f2044287144</tri_uid>
+        <tri_title>GET_TRANSLATOR_ID</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>8879167526666d72fbe6f83045047317</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[// to get and set the id of translators that logged in to a unique variable.
+
+@@TRANS_ID = @@USER_LOGGED;]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+    </table>
+    <table name="taskusers">
+      <record>
+        <tas_uid>7507487026666d758ab6104080258587</tas_uid>
+        <tas_id>0</tas_id>
+        <usr_uid>757046411664f02dc0e54b1023074723</usr_uid>
+        <tu_type>1</tu_type>
+        <tu_relation>2</tu_relation>
+        <assigned_id>0</assigned_id>
+      </record>
+    </table>
+    <table name="groupwfs">
+      <record>
+        <grp_uid>757046411664f02dc0e54b1023074723</grp_uid>
+        <grp_title><![CDATA[مترجمین]]></grp_title>
+        <grp_status>ACTIVE</grp_status>
+        <grp_status_id>0</grp_status_id>
+        <grp_ldap_dn></grp_ldap_dn>
+        <grp_ux>NORMAL</grp_ux>
+      </record>
+    </table>
+    <table name="steptriggers">
+      <record>
+        <step_uid>307472002666ab891166a33062554869</step_uid>
+        <tas_uid>7507487026666d758ab6104080258587</tas_uid>
+        <tri_uid>349939674666edc88adbfe7078379927</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>307472002666ab891166a33062554869</step_uid>
+        <tas_uid>7507487026666d758ab6104080258587</tas_uid>
+        <tri_uid>524523051666ed2770c85f2044287144</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>636621329666ed0104e0f46074316732</step_uid>
+        <tas_uid>615519885666ecf854bfaa2090823927</tas_uid>
+        <tri_uid>255538915666c32e9108d69022802219</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections"/>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker"/>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory"/>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>681427782666ab9dc55bf82083133429</var_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <var_name>dat_selected_time</var_name>
+        <var_field_type>datetime</var_field_type>
+        <var_field_type_id>5</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>datetime</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>963000210666ecff75a01d8070418311</var_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <var_name>grd_trans_details</var_name>
+        <var_field_type>grid</var_field_type>
+        <var_field_type_id>6</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>grid</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7969149766666da63f0ed43017243412</var_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <var_name>MAINPROCESS_APP_UID</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>731185279666ab86103a189063308728</var_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <var_name>mfi_order_file</var_name>
+        <var_field_type>multiplefile</var_field_type>
+        <var_field_type_id>9</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>multiplefile</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>954693710666ab90c82ae48045584841</var_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <var_name>rad_accept_trans</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[{"value":"1","label":"\u062a\u0631\u062c\u0645\u0647 \u0645\u06cc\u06a9\u0646\u0645"},{"value":"2","label":"\u0639\u062f\u0645 \u067e\u0630\u06cc\u0631\u0634"}]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>177007431666ecff7a6bfd0026294680</var_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <var_name>rad_details_alowed</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[{"value":"True","label":"\u062a\u0627\u06cc\u06cc\u062f"},{"value":"False","label":"\u0639\u062f\u0645 \u062a\u0627\u06cc\u06cc\u062f"}]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>590602621666ed28381af71037421692</var_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <var_name>TRANS_ID</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>865994591666ab8ada46634091948054</var_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <var_name>txr_order_desc</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>740070845666ab9f17ec917091235209</var_uid>
+        <prj_uid>8879167526666d72fbe6f83045047317</prj_uid>
+        <var_name>txt_selected_price</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager"/>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name><![CDATA[02_بررسی هزینه و زمان]]></file_name>
+      <file_path><![CDATA[8879167526666d72fbe6f83045047317\173733506666ecfeac2aa34003580007.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijg4NzkxNjc1MjY2NjZkNzJmYmU2ZjgzMDQ1MDQ3MzE3LzE3MzczMzUwNjY2NmVjZmVhYzJhYTM0MDAzNTgwMDA3IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>01_TRANSLATOR_CHECK</file_name>
+      <file_path><![CDATA[8879167526666d72fbe6f83045047317\765707935666ab85c812de2075025880.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijg4NzkxNjc1MjY2NjZkNzJmYmU2ZjgzMDQ1MDQ3MzE3Lzc2NTcwNzkzNTY2NmFiODVjODEyZGUyMDc1MDI1ODgwIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>
